@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://172.20.10.5:8082');
+const socket = new WebSocket('ws://YOUR-IP-HERE:8082');
 const messageContainer = document.getElementById('message-container');
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
